@@ -2,7 +2,7 @@ import React from "react";
 import noto_books from "../assets/images/noto_books.png";
 import shopping from "../assets/images/shopping.png";
 import support from "../assets/images/support.png";
-import vector from "../assets/images/vector.png";
+import Vector from "../assets/images/Vector.png";
 
 const Features = () => {
   return (
@@ -21,7 +21,7 @@ const Features = () => {
           </div>
           <div className="text-center">
             <div className="bg-white relative rounded-full w-32 h-32 flex items-center justify-center">
-              <img className="rounded-full w-20 h-20" src={vector} />
+              <img className="rounded-full w-20 h-20" src={Vector} />
             </div>
             <p className="mt-3">Returnees</p>
             <p>& Exchanges</p>
