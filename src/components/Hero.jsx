@@ -10,7 +10,7 @@ import Illustration from "../assets/images/Illustration.png";
 const Hero = () => {
   return (
     <section className="bg-navbar-bg pb-3 ">
-      <div className="md:w-4/5 md:mx-auto md:flex">
+      <div className="md:w-4/5 mx-auto w-[80%] md:flex">
         <div className="md:w-3/6 pt-6 md:pt-3">
           <p className="text-xl  font-medium text-gray-400 ">
             Anywhere and Everywhere

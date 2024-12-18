@@ -36,10 +36,10 @@ const Navbar = () => {
         <div class="md:relative hidden md:block">
           <input
             type="text"
-            class="pl-10 border border-gray-300 rounded w-full h-6 py-2 focus:outline-none md:mt-2 "
+            class="pl-10 border border-gray-300 rounded w-full h-10 py-2 focus:outline-none md:mt-2 "
             placeholder="Search..."
           />
-          <div class="absolute top-3 left-0 flex items-center pl-3">
+          <div class="absolute top-5 left-0 flex items-center pl-3">
             <FaSearch className="text-gray-400" />
           </div>
         </div>

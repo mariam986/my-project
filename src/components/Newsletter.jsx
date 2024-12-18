@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section className="bg-genre">
-      <div className="md:w-11/12  md:mx-auto bg-blue-800 py-12 md:px-12 px-0">
+      <div className="md:w-11/12  md:mx-auto bg-blue-800  py-12 md:px-12 px-3">
         <div className="text-4xl md:text-5xl font-bold text-white">
           <p>Subscribe to Our Newsletter</p>
           <p className="mt-4">Newest Books Updates</p>

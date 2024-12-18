@@ -14,7 +14,7 @@ const Genres = () => {
             <FaArrowDown className="mt-1"></FaArrowDown>
           </div>
         </div>
-        <div className="grid  md:grid-cols-4 md:gap-40 gap-8 text-white md:w-full  md:mx-auto grid-cols-2 gap-x-0   ">
+        <div className="grid  md:grid-cols-4 md:gap-40 gap-8 text-white md:w-full  mx-auto grid-cols-2 gap-x-0 w-[80%]   ">
           <button className="bg-orange-600 w-36 md:w-40 py-4 rounded-lg ">
             Adventure
           </button>

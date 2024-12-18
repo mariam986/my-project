@@ -15,7 +15,7 @@ export const Authors = () => {
           </h1>
           <p className=" text-sm  md:text-2xl font-medium">See All</p>
         </div>
-        <div className="md:flex block mt-8 md:text-center md:justify-between">
+        <div className="md:flex block mt-8 md:text-center md:justify-between w-[80%] mx-auto md:w-full">
           <div className="flex md:block gap-3">
             <img className="w-[35%] md:w-full" src={fig1} />
             <div className="mt-5 md:mt-0">

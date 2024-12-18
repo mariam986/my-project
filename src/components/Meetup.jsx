@@ -5,7 +5,7 @@ import unsplash from "../assets/images/unsplash.png";
 const Meetup = () => {
   return (
     <section className="bg-navbar-bg">
-      <div className="md:flex  md:w-11/12 md:mx-auto py-10 ">
+      <div className="md:flex  md:w-11/12 mx-auto w-[80%] py-10 ">
         <div className="md:w-[50%] w-full ">
           <div className="flex gap-3">
             <img className="w-[10%] md:h-16 h-10" src={Logo} />
