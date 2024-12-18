@@ -8,46 +8,68 @@ import fig5 from "../assets/images/fig5.png";
 export const Authors = () => {
   return (
     <section className="bg-genre">
-      <div className="w-11/12 mx-auto pt-20 pb-5">
-        <div className="flex w-[88%] m-auto justify-between text-blue-500 ">
-          <h1 className="mt-5 text-4xl font-semibold">POPULAR AUTHORS</h1>
-          <p className="text-2xl font-medium">See All</p>
+      <div className="md:w-11/12 md:mx-auto pt-20 pb-5">
+        <div className="flex md:w-[88%] md:m-auto md:justify-between text-blue-500 gap-10 md:gap-0 ">
+          <h1 className="mt-5 text-3xl md:text-4xl font-semibold">
+            POPULAR AUTHORS
+          </h1>
+          <p className=" text-sm  md:text-2xl font-medium">See All</p>
         </div>
-        <div className="flex mt-8 text-center justify-between">
-          <div>
-            <img src={fig1} />
-            <p className="text-3xl font-medium mt-3">James Clear</p>
-            <p className="text-3xl font-medium text-orange-600 mt-3">
-              600+ Books
-            </p>
+        <div className="md:flex block mt-8 md:text-center md:justify-between">
+          <div className="flex md:block gap-3">
+            <img className="w-[35%] md:w-full" src={fig1} />
+            <div className="mt-5 md:mt-0">
+              <p className="text-2xl md:text-3xl font-medium mt-3">
+                James Clear
+              </p>
+              <p className="text-xl md:text-3xl font-medium text-orange-600 mt-1 md:mt-3">
+                600+ Books
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={fig2} />
-            <p className="text-3xl font-medium mt-3">Lucy Caldwel</p>
-            <p className="text-3xl font-medium text-orange-600 mt-3">
-              150+ Books
-            </p>
+          <div className="flex md:block mt-5 md:mt-0 gap-3">
+            <img className="w-[35%] md:w-full" src={fig2} />
+            <div className="mt-5 md:mt-0">
+              <p className="text-2xl md:text-3xl  font-medium mt-3">
+                Lucy Caldwel
+              </p>
+              <p className="text-xl md:text-3xl font-medium text-orange-600 mt-3">
+                150+ Books
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={fig3} />
-            <p className="text-3xl font-medium mt-3">Alan Trotter</p>
-            <p className="text-3xl font-medium text-orange-600 mt-3">
-              10 Ebooks
-            </p>
+          <div className="flex md:block  mt-5 md:mt-0 gap-3">
+            <img className="w-[35%] md:w-full" src={fig3} />
+            <div className="mt-5 md:mt-0">
+              <p className="text-2xl md:text-3xl  font-medium mt-3">
+                Alan Trotter
+              </p>
+              <p className="text-xl md:text-3xl  font-medium text-orange-600 mt-3">
+                10 Ebooks
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={fig4} />
-            <p className="text-3xl font-medium mt-3">Sarah Raughan</p>
-            <p className="text-3xl font-medium text-orange-600 mt-3">
-              100+ Novels
-            </p>
+          <div className="flex md:block  mt-5 md:mt-0 gap-3">
+            <img className="w-[35%] md:w-full" src={fig4} />
+            <div className="mt-5 md:mt-0">
+              <p className="text-2xl md:text-3xl  font-medium mt-3">
+                Sarah Raughan
+              </p>
+              <p className="text-xl md:text-3xl  font-medium text-orange-600 mt-3">
+                100+ Novels
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={fig5} />
-            <p className="text-3xl font-medium mt-3">Chip Heath</p>
-            <p className="text-3xl font-medium text-orange-600 mt-3">
-              250+ Books
-            </p>
+          <div className="flex md:block  mt-5 md:mt-0 gap-3">
+            <img className="w-[35%] md:w-full" src={fig5} />
+            <div className="mt-5 md:mt-0">
+              <p className="text-2xl md:text-3xl  font-medium mt-3">
+                Chip Heath
+              </p>
+              <p className="text-xl md:text-3xl  font-medium text-orange-600 mt-3">
+                250+ Books
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -3,19 +3,19 @@ import React from "react";
 const Newsletter = () => {
   return (
     <section className="bg-genre">
-      <div className="w-11/12 mx-auto bg-blue-800 py-12 px-12">
-        <div className="text-5xl font-bold text-white">
+      <div className="md:w-11/12  md:mx-auto bg-blue-800 py-12 md:px-12 px-0">
+        <div className="text-4xl md:text-5xl font-bold text-white">
           <p>Subscribe to Our Newsletter</p>
           <p className="mt-4">Newest Books Updates</p>
         </div>
-        <div className="relative ml-96 mt-10">
+        <div className="relative md:ml-96 ml-0 mt-10">
           <input
             type="text"
             placeholder="Type your email here"
-            className="w-[60%] h-20 pl-4 rounded-lg "
+            className="md:w-[60%] w-[90%] h-20 pl-4 rounded-lg "
           />
-          <div className="absolute  top-4 flex items-center left-96">
-            <button className="bg-orange-600 py-3 px-8 rounded-lg text-white text-2xl font-semibold">
+          <div className="absolute  top-4 flex items-center md:left-96 left-48">
+            <button className="bg-orange-600 py-3 md:px-8 px-4 rounded-lg text-white md:text-2xl text-base font-semibold">
               Subscribe
             </button>
           </div>
